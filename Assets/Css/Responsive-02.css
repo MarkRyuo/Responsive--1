@@ -39,13 +39,17 @@
   background-color: bisque;
 }
 
-@media all and (min-width:800px;) {
+@media all and (min-width:800px ) {
 
   .main {
     flex: 3;
   }
-  
+
   .aside1 {
     order: 1;
+  }
+
+  .aside2 {
+    order: 2;
   }
 }
