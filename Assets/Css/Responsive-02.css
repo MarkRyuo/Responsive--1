@@ -14,6 +14,15 @@
   margin: 1.6rem;
   padding: 1.6rem;
   flex: 1 100%;
-  border-radius: 1rem;
+  border-radius: 0.6rem;
 }
 
+.navigation {
+  background-color: antiquewhite;
+}
+
+.main {
+  background-color: aqua;
+  text-align: justify;
+  font-size: 1.2rem;
+}
