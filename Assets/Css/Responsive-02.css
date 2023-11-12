@@ -6,11 +6,14 @@
 .wrapper {
   display: flex;
   flex-flow: row wrap;
-  flex-direction: column;
+  /* flex-direction: column; */
+  text-align: center;
 }
 
 .wrapper > * {
-  margin: 9.6rem;
-  padding: 9.6rem;
+  margin: 1.6rem;
+  padding: 1.6rem;
+  flex: 1 100%;
+  border-radius: 1rem;
 }
 
