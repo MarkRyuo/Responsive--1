@@ -5,5 +5,12 @@
 
 .wrapper {
   display: flex;
+  flex-flow: row wrap;
   flex-direction: column;
 }
+
+.wrapper > * {
+  margin: 9.6rem;
+  padding: 9.6rem;
+}
+
